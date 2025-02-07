@@ -8,79 +8,113 @@
 	</head>
 	<body>
 		<header class="flex header services_1120-hidden">
-			<div class="flex header-left">
-				<div>
-					<img class="margin" src="./pablic/burger.svg" alt="burger" />
+			<div class="container flex">
+				<div class="flex">
+					<button class="header__burger button">
+						<img src="./pablic/burger.svg" alt="burger" />
+					</button>
+
+					<img src="./pablic/Group.svg" alt="" />
 				</div>
-
-				<img src="./pablic/Group.svg" alt="" />
+				<div class="flex">
+					<ul class="mobileHidden">
+						<li class="header__list-button">
+							<button class="button">
+								<img src="./pablic/call.svg" alt="call" />
+							</button>
+						</li>
+						<li class="header__list-button">
+							<button class="button">
+								<img src="./pablic/chat.svg" alt="icon" />
+							</button>
+						</li>
+						<li class="header__list-button">
+							<button class="button">
+								<img src="./pablic/profile.svg" alt="profile" />
+							</button>
+						</li>
+					</ul>
+					<ul class="flex line">
+						<button class="button">
+							<li class="header__list-button">
+								<img src="./pablic/repair.svg" alt="repair" />
+							</li>
+						</button>
+						<button class="button">
+							<li>
+								<img src="./pablic/checkstatus.svg" alt="checkstatus" />
+							</li>
+						</button>
+					</ul>
+				</div>
 			</div>
-
-			<nav class="flex">
-				<ul class="mobileHidden">
-					<li class="margin">
-						<img src="./pablic/call.svg" alt="call" />
-					</li>
-					<li class="margin">
-						<img src="./pablic/chat.svg" alt="icon" />
-					</li>
-					<li class="margin">
-						<img src="./pablic/profile.svg" alt="profile" />
-					</li>
-				</ul>
-				<ul class="flex line">
-					<li class="margin">
-						<img src="./pablic/repair.svg" alt="repair" />
-					</li>
-					<li class="margin">
-						<img src="./pablic/checkstatus.svg" alt="checkstatus" />
-					</li>
-				</ul>
-			</nav>
 		</header>
+
 		<main class="main">
 			<div class="flex main__header">
 				<h1 class="highlight">Услуги и сервисы</h1>
-				<nav class="services_1120-active main__nav">
-					<div class="flex main__nav-item">
-						<h3 class="margin">Оставить заявку</h3>
+				<div class="services_1120-active">
+					<button class="flex button main__nav-item">
+						<p>Оставить заявку</p>
 						<img src="./pablic/repair.svg" alt="repair" />
-					</div>
-					<div class="flex main__nav-item">
-						<h3 class="margin">Статус ремонта</h3>
-						<img src="./pablic/checkstatus.svg" alt="checkstatus" />
-					</div>
-				</nav>
-			</div>
-			<ul class="flex main__list">
-				<button class="button main__button main__first-button">
-					Ремонтируемые устройства
-				</button>
-				<button class="button main__button">Специальные цены</button>
-				<button class="button main__button">Цены на услуги</button>
-				<button class="button main__button">Адреса сервисных центров</button>
-				<button class="button main__button">Ремонтируемые бренды</button>
-				<button class="button main__button">Отзывы</button>
-			</ul>
-			<div class="main__position-info">
-				<div class="main__text">
-					<p>
-						Мы являемся авторизованным сервисным центром по ремонту техники
-						Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-						официальной гарантией производителя.
-					</p>
-					<p class="mobileHidden">
-						Мы успешно работаем с 1992 года и заслужили репутацию надежного
-						партнера
-						<span class="main__span services_1120-active"
-							>, что подтверждает большое количество постоянных клиентов. Мы
-							гордимся тем, что к нам обращаются по рекомендациям и, в свою
-							очередь, советуют нас родным и близким.</span
-						>
-					</p>
-					<button class="button flex next-button">
-						<img src="./pablic/expand.svg" alt="" />Читать далее
 					</button>
+					<button class="flex button main__nav-item">
+						<p>Статус ремонта</p>
+						<img src="./pablic/checkstatus.svg" alt="checkstatus" />
+					</button>
+				</div>
+			</div>
+			<div class="container">
+				<ul class="flex main__list">
+					<a href="#"class="main__list-item">
+						<li>
+							Ремонтируемые устройства
+						</li>
+					</a>
+					<a href="#"class="main__list-item">
+						<li>Специальные цены</li>
+					</a>
+					<a href="#"class="main__list-item">
+						<li>Цены на услуги</li>
+					</a>
+					<a href="#" class="main__list-item">
+						<li></li>
+							Адреса сервисных центров
+						</li>
+					</a>
+					<a href="#"class="main__list-item">
+						<li>Ремонтируемые бренды</li>
+					</a>
+					<a href="#"class="main__list-item">
+						<li>Отзывы</li>
+					</a>
+				</ul>
+			</div>
+			<div class="main__position-info">
+				<div class="container">
+					<div class="main__text">
+						<p>
+							Мы являемся авторизованным сервисным центром по ремонту техники
+							Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+							официальной гарантией производителя.
+						</p>
+						<p class="mobileHidden">
+							Мы успешно работаем с 1992 года и заслужили репутацию надежного
+							партнера
+							<span class="main__span services_1120-active"
+								>, что подтверждает большое количество постоянных клиентов. Мы
+								гордимся тем, что к нам обращаются по рекомендациям и, в свою
+								очередь, советуют нас родным и близким.</span
+							>
+						</p>
+						<button class="button flex next-button">
+							<img
+								class="next-button__arrows"
+								src="./pablic/expand.svg"
+								alt=""
+							/>Читать далее
+						</button>
+					</div>
 				</div>
 				<img class="main_img" src="./pablic/Picture.jpg" alt="" />
 			</div>
